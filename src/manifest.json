@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "engineer-by-hustle",
+  "description": "Engineer by Hustle",
+  "permissions": ["storage", "tabs", "scripting"],
+  "background": { "service_worker": "background.bundle.js" },
+  "action": {
+    "default_title": "Engineer by Hustle",
+    "default_popup": "popup.html",
+    "default_icon": "icon32.png"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+      "js": ["contentScript.bundle.js"],
+      "css": ["content.styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.styles.css", "icon128.png", "icon32.png"],
+      "matches": []
+    }
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://*.google.com/*",
+    "https://*.indeed.com/*",
+    "https://*.glassdoor.com/*",
+    "https://*.dice.com/*",
+    "https://*.simplyhired.com/*",
+    "https://*.weworkremotely.com/*",
+    "https://*.authenticjobs.com/*",
+    "https://*.flexjobs.com/*",
+    "https://*.powertofly.com/*",
+    "https://*.workingnomads.com/*"
+  ]
+}
