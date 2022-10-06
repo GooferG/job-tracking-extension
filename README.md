@@ -1,5 +1,14 @@
 Job Tracking Extension MVP
 
+<ul>
+  
+  <li> AAU you are able to login using an email/password combo and their information is saved under our Firebase database. </li>
+  <li> AAU you are able to fetch/scrape information from job posts and add it to your account </li>
+  <li> AAU you are able to filter the applications and update its statuses. </li>
+  <li> AAU you are able to remove jobs from the lists</li>
+  
+ </ul>
+
 ![ApplicatonTrackerLoginPage](https://user-images.githubusercontent.com/25205819/193949831-70b7599c-89bc-4ad9-a134-5d62f710bfdb.png)
 
 Log in is available for local Auth (still working on Google Ouath as Manifest V3 doesn't seem to allow popup login for extensions
