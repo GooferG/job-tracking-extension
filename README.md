@@ -8,6 +8,13 @@ Job Tracking Extension MVP
   <li> AAU you are able to remove jobs from the lists</li>
   
  </ul>
+ 
+ Upcoming features:
+ 
+<ul> 
+  <li> AAU you will be able to edit applicatoin info if required. </li>
+  <li> AAU you should be able to login to a dasbhoard to allow easier review of applications. </li>
+</ul>
 
 ![ApplicatonTrackerLoginPage](https://user-images.githubusercontent.com/25205819/193949831-70b7599c-89bc-4ad9-a134-5d62f710bfdb.png)
 
